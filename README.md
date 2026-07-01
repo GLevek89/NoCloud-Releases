@@ -36,9 +36,11 @@ for Updates**.
 
 ## Privacy
 
-NoCloud is offline-first. Your business data lives in a local database on your
-machine and is never sent to a server. The only network request the app makes is
-checking this page for updates.
+NoCloud is offline-first. Your business data (clients, inventory, invoices,
+estimates) lives in a local database on your machine and is never sent to a
+server. The app's outbound network calls are limited to: checking this page for
+updates, a one-time license-activation ping, and — only when you choose to send
+them — in-app feedback and crash reports.
 
 ## License
 
