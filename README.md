@@ -41,8 +41,16 @@ Updates → Check for Updates**.
   alerts, kit / bundle building for leaf-spring kits, spreadsheet import, and / for parts-focused
   businesses / optional starter catalogs (U-bolts, center bolts, bushings,
   leaf springs).
-- **Expenses & Transactions** / track outgoing expenses and see them combined
-  with invoices in one transactions ledger.
+- **Rent collection** (rental business type) / give each unit a tenant, rent
+  amount, and due day (monthly or weekly). The dashboard shows what's
+  collected, due, or late this period, records a rent payment in one click
+  (long-term rent HST-exempt by default), and reminds you on launch when a
+  rent day arrives with something uncollected.
+- **Expenses & Transactions** / track outgoing expenses (auto-HST from the
+  receipt total, vendor memory that fills in the usual category, and a
+  spreadsheet-style quick-entry grid) and see them combined with invoices in
+  one transactions ledger. Receiving stock can record the purchase expense in
+  the same step.
 - **Receivables** / an aging view of everything owed to you.
 - **Reports** / revenue, HST charged, and receivables aging for any date
   range.
@@ -52,8 +60,10 @@ Updates → Check for Updates**.
   (invoices, estimates, clients, inventory, expenses, notes, and more) for
   quick View, Edit, Print, Export, and Delete / no need to open the record
   first.
-- **Bulk export** / filter invoices by status and export several as PDFs at
-  once from **Send Invoices**.
+- **Exports everywhere** / every list exports to CSV, receivables aging and
+  report summaries print, each client gets a printable statement, invoices
+  export as PDFs in bulk, and the Export page offers a one-file accountant
+  package (.xlsx) plus a full-data CSV export / your data is never locked in.
 - **Multiple business profiles** / run more than one business from the same
   install and switch between them.
 - **Custom fields** / add your own fields to invoices, estimates, and
