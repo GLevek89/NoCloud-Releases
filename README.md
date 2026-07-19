@@ -1,126 +1,99 @@
-# NoCloud //GL//
+# NoCloud
 
-**Offline desktop business hub for small businesses** / manage clients,
-inventory, invoicing, estimates, expenses, and reporting, all from one app.
-Your data stays on your computer.
+NoCloud is an offline-first Windows desktop business hub for small businesses.
+It brings clients, inventory, invoicing, estimates, receivables, expenses,
+rent collection, notes, reporting, and backups into one application. Business
+data stays in a local SQLite database on the user's computer.
 
-This repository hosts the **downloadable installers** for NoCloud. The source
-code lives in a separate, private repository.
+This public repository contains the downloadable NoCloud installers and update
+manifests. The source code is maintained separately in a private repository.
 
-## Download & install
+## Latest release
 
-1. Open the **[latest release](https: /  / github.com / GLevek89 / NoCloud-Releases / releases / latest)**.
-2. Download **`NoCloud-Setup-<version>.exe`** (Windows 10 / 11, 64-bit).
-3. Run it and follow the installer. On first launch, enter your license key,
-   then a short setup wizard collects your business details (name, HST / tax
-   number, logo, payment instructions) and lets you pick a business type.
+**Current version: [NoCloud v1.2.2](https://github.com/GLevek89/NoCloud-Releases/releases/tag/v1.2.2)**
 
-> **SmartScreen note:** the installer isn't code-signed yet, so Windows may
-> show a "Windows protected your PC" warning. Click **More info → Run
-> anyway** to continue.
+- [Open the latest release](https://github.com/GLevek89/NoCloud-Releases/releases/latest)
+- [Download NoCloud-Setup-1.2.2.exe](https://github.com/GLevek89/NoCloud-Releases/releases/download/v1.2.2/NoCloud-Setup-1.2.2.exe)
+- Windows 10 or Windows 11, 64-bit
+- Installer SHA-256: `111556001de7c6993f1d2f054e3f307c4cff3a53c07bb77e08fab99ac209f475`
+
+NoCloud v1.2.2 adds an invoice design workspace in Settings with a live preview,
+four templates, fifteen bundled offline fonts, custom colours, logo and paper
+options, footer controls, and reusable design presets. The release did not add
+a database schema migration, so existing v1.2.1 databases remain compatible.
+
+> **Windows SmartScreen:** The installer is not code-signed yet. Windows may
+> display “Windows protected your PC.” Choose **More info → Run anyway** only
+> after confirming the installer came from this repository.
+
+## Installation
+
+1. Download `NoCloud-Setup-1.2.2.exe` from the release link above.
+2. Run the installer.
+3. Launch NoCloud and enter your license key.
+4. Complete the setup wizard and choose the business model that matches your
+   work.
+
+## What NoCloud includes
+
+- **Invoicing and estimates:** payments, HST, due dates, overdue tracking,
+  deposits, holdback/progress billing, counter sales, and estimate conversion.
+- **Invoice design:** four PDF layouts, live preview, bundled fonts, custom
+  colours, logo placement, paper settings, footers, and saved presets.
+- **Inventory:** products, materials, services, stock movements, low-stock
+  alerts, kits, spreadsheet import, and optional parts starter catalogs.
+- **Excavation and parts sales:** tailored inventory groups, service presets,
+  receiving workflows, and parts-focused starter catalogs.
+- **Rental locations:** properties and units, tenant assignment, monthly or
+  weekly rent schedules, due/late status, and rent-payment recording.
+- **Expenses and transactions:** HST extraction, vendor memory, quick entry,
+  stock-receipt expense linking, and a combined transaction ledger.
+- **Receivables and reports:** aging, revenue, HST, rental income, printable
+  summaries, and date-range reporting.
+- **Exports:** CSV list exports, client statements, batch invoice PDFs,
+  accountant-ready XLSX packages, and full-data exports.
+- **Multiple business profiles:** keep separate businesses in one installation
+  and switch between them.
+- **English and French (Canada):** full bilingual interface.
+- **Light and dark appearance:** selectable themes, density, and a rerunnable
+  guided tour.
 
 ## Automatic updates
 
-NoCloud checks here for new versions automatically / daily and at launch.
-When an update is ready it downloads in the background; just click **Restart
-now** when prompted. You can also check manually from **Settings → Software
-Updates → Check for Updates**.
+NoCloud checks this repository for updates at startup and periodically while the
+application is running. Update packages download in the background and install
+only after the user accepts the restart prompt. Automatic update checks can be
+disabled from **Settings → About**.
 
-## What's inside
+Each published release should contain:
 
-- **Dashboard**  /  glance of revenue, outstanding balances, and recent
-  activity for your business.
-- **Clients**  /  contacts, per-client billing history, and a detail view for
-  every account.
-- **Invoicing** / invoices and estimates in one page (switch with a tab):
-  payments, HST, due dates, overdue tracking, deposits, and one-click
-  convert-estimate-to-invoice.
-- **Counter Sale** / a fast, till-style checkout for walk-in or over-the-
-  counter sales that still produces a proper invoice without a saved client.
-- **Inventory** / materials and service items with stock tracking, low-stock
-  alerts, kit / bundle building for leaf-spring kits, spreadsheet import, and / for parts-focused
-  businesses / optional starter catalogs (U-bolts, center bolts, bushings,
-  leaf springs).
-- **Rent collection** (rental business type) / give each unit a tenant, rent
-  amount, and due day (monthly or weekly). The dashboard shows what's
-  collected, due, or late this period, records a rent payment in one click
-  (long-term rent HST-exempt by default), and reminds you on launch when a
-  rent day arrives with something uncollected.
-- **Expenses & Transactions** / track outgoing expenses (auto-HST from the
-  receipt total, vendor memory that fills in the usual category, and a
-  spreadsheet-style quick-entry grid) and see them combined with invoices in
-  one transactions ledger. Receiving stock can record the purchase expense in
-  the same step.
-- **Receivables** / an aging view of everything owed to you.
-- **Reports** / revenue, HST charged, and receivables aging for any date
-  range.
-- **Notes** / a built-in notebook for anything that doesn't belong on an
-  invoice.
-- **Right-click actions everywhere** / right-click any row in any list
-  (invoices, estimates, clients, inventory, expenses, notes, and more) for
-  quick View, Edit, Print, Export, and Delete / no need to open the record
-  first.
-- **Exports everywhere** / every list exports to CSV, receivables aging and
-  report summaries print, each client gets a printable statement, invoices
-  export as PDFs in bulk, and the Export page offers a one-file accountant
-  package (.xlsx) plus a full-data CSV export / your data is never locked in.
-- **Multiple business profiles** / run more than one business from the same
-  install and switch between them.
-- **Custom fields** / add your own fields to invoices, estimates, and
-  products where the built-in ones aren't enough.
-- **PDF invoice templates** / several layouts and accent colors, with a live
-  preview before you send or print.
-- **Light & dark themes**, adjustable density, and a rerunnable guided tour.
-- **Bilingual** / full English and French (Canada) interface.
-- **Backups & recovery** / automatic local backups plus one-click restore
-  (see below).
+- `NoCloud-Setup-<version>.exe`
+- `NoCloud-Setup-<version>.exe.blockmap`
+- `latest.yml`
 
-## Security & data protection
+## Data protection
 
-NoCloud is built offline-first, and the data protections underneath it go
-beyond "your data doesn't leave the machine":
+NoCloud is designed around a local, user-owned database:
 
-- **Crash-safe saves.** The database runs in SQLite's write-ahead-log (WAL)
-  journal mode, so every save is atomic / a crash or power loss mid-write
-  cannot leave your database half-written or corrupted.
-  
-- **Automatic, validated backups.** A rolling backup is taken every time the
-  app launches, in addition to on-demand manual backups. Every backup file is
-  verified and integrity checks, referential integrity checks, and a check that
-  all required tables are present / before it's ever offered for restore.
-  
-- **Self-healing restore.** Restoring a backup first snapshots your current
-  database; if the restored file fails validation or the app can't start
-  from it, NoCloud automatically rolls back to exactly what you had before,
-  rather than leaving you with a broken database.
-  
-- **Protected upgrades.** Every database schema upgrade (shipped with new
-  app versions) takes an automatic safety snapshot first and rolls back
-  automatically if the upgrade fails partway through.
-  
-- **Hardened app process.** The UI runs sandboxed and isolated from Node.js
-  and the file system / it has no direct OS access. Every action it takes is
-  routed through a narrow, explicitly whitelisted bridge to the app's backend.
-  
-- **Locked-down file access.** Internal guards block any in-app file
-  operation from ever touching the live database, its journal files, or your
-  license file outside of the intended backup / restore flow.
-  
-- **No plaintext license keys.** The app never stores or transmits your
-  license key as plain text / only a one-way cryptographic hash of it is
-  checked against an embedded allowlist.
+- SQLite transactions and write-ahead logging protect normal saves.
+- Rolling automatic backups and manual backups are supported.
+- Backups are validated before restore.
+- Restore takes a safety snapshot first and rolls back if validation fails.
+- Database migrations require a pre-update snapshot and restore the previous
+  database if migration fails.
+- Existing invoices, clients, payments, stock movements, and expenses are not
+  stored in this repository.
 
-## Privacy
+NoCloud is offline-first. Network access is limited to update checks, license
+activation, opt-in multi-device features on the user's own network, and feedback
+or crash reports only when the user chooses to send them.
 
-NoCloud is offline-first. 
-Your business data (clients, inventory, invoices, estimates, expenses, notes) lives in a local database on your machine and is
-never sent to a server. 
+## Release policy
 
-The app's outbound network calls are limited to:
-checking this page for updates, a one-time license-activation ping, and —
-only when you choose to send them / in-app feedback and crash reports.
+A feature is not available to users until a versioned release with all three
+required update assets is published here. Development branches and draft source
+pull requests are not release builds.
 
 ## License
-[Apache-2.0](. / LICENSE).
 
-GL//
+[Apache-2.0](./LICENSE)
