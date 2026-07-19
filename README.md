@@ -10,17 +10,23 @@ manifests. The source code is maintained separately in a private repository.
 
 ## Latest release
 
-**Current version: [NoCloud v1.2.2](https://github.com/GLevek89/NoCloud-Releases/releases/tag/v1.2.2)**
+**Current version: [NoCloud v1.3.0](https://github.com/GLevek89/NoCloud-Releases/releases/tag/v1.3.0)**
 
 - [Open the latest release](https://github.com/GLevek89/NoCloud-Releases/releases/latest)
-- [Download NoCloud-Setup-1.2.2.exe](https://github.com/GLevek89/NoCloud-Releases/releases/download/v1.2.2/NoCloud-Setup-1.2.2.exe)
+- [Download NoCloud-Setup-1.3.0.exe](https://github.com/GLevek89/NoCloud-Releases/releases/download/v1.3.0/NoCloud-Setup-1.3.0.exe)
 - Windows 10 or Windows 11, 64-bit
-- Installer SHA-256: `111556001de7c6993f1d2f054e3f307c4cff3a53c07bb77e08fab99ac209f475`
+- Installer SHA-256: `069b2bd2ef548508c377a45f1551f3387f48372966961e2e0124d9b9cbdbedf1`
 
-NoCloud v1.2.2 adds an invoice design workspace in Settings with a live preview,
-four templates, fifteen bundled offline fonts, custom colours, logo and paper
-options, footer controls, and reusable design presets. The release did not add
-a database schema migration, so existing v1.2.1 databases remain compatible.
+NoCloud v1.3.0 adds a persistent attention workspace, always-visible English/
+French and light/dark controls, desktop File/View/Help menus with route-aware
+print and export actions, external or cloud-synced-folder backup setup, and the
+Nuts & Bolts starter catalog. Stock alerts now ignore inactive reference and
+non-stock rows.
+
+The release uses an additive migration that deletes no business records and
+only deactivates untouched, zero-quantity reference catalog rows. An upgrade
+copy from v1.2.2 was validated with SQLite integrity, record counts, stock
+totals, and financial totals preserved.
 
 > **Windows SmartScreen:** The installer is not code-signed yet. Windows may
 > display “Windows protected your PC.” Choose **More info → Run anyway** only
@@ -28,7 +34,7 @@ a database schema migration, so existing v1.2.1 databases remain compatible.
 
 ## Installation
 
-1. Download `NoCloud-Setup-1.2.2.exe` from the release link above.
+1. Download `NoCloud-Setup-1.3.0.exe` from the release link above.
 2. Run the installer.
 3. Launch NoCloud and enter your license key.
 4. Complete the setup wizard and choose the business model that matches your
