@@ -19,6 +19,14 @@ demonstration data. No customer or business records are included.
 | --- | --- |
 | [![NoCloud invoicing in dark mode](assets/screenshots/invoices-dark.png)](assets/screenshots/invoices-dark.png) | [![NoCloud expenses in dark mode](assets/screenshots/expenses-dark.png)](assets/screenshots/expenses-dark.png) |
 
+### Rental unit workspace preview
+
+The next rental update is currently in review. It adds a focused unit workspace
+for property details, lease and tenant setup, current rent status, payment
+recording, and per-unit rent history.
+
+[![NoCloud rental unit workspace in dark mode](assets/screenshots/rental-unit-workspace-dark.png)](assets/screenshots/rental-unit-workspace-dark.png)
+
 ## Latest release
 
 **Current version: [NoCloud v1.3.0](https://github.com/GLevek89/NoCloud-Releases/releases/tag/v1.3.0)**
