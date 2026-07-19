@@ -28,22 +28,23 @@ tenant setup, current rent status, payment recording, and per-unit rent history.
 
 ## Latest release
 
-**Current version: [NoCloud v1.4.0](https://github.com/GLevek89/NoCloud-Releases/releases/tag/v1.4.0)**
+**Current version: [NoCloud v1.4.1](https://github.com/GLevek89/NoCloud-Releases/releases/tag/v1.4.1)**
 
 - [Open the latest release](https://github.com/GLevek89/NoCloud-Releases/releases/latest)
-- [Download NoCloud-Setup-1.4.0.exe](https://github.com/GLevek89/NoCloud-Releases/releases/download/v1.4.0/NoCloud-Setup-1.4.0.exe)
+- [Download NoCloud-Setup-1.4.1.exe](https://github.com/GLevek89/NoCloud-Releases/releases/download/v1.4.1/NoCloud-Setup-1.4.1.exe)
 - Windows 10 or Windows 11, 64-bit
-- Installer SHA-256: `927e70b25565abbbe8b251610acd192cc0759b41fc5691adf6ab01aa2bb09b4d`
+- Installer SHA-256: `a9a60964ba169b02a77157e66d0d71b9cd0c9f035277ace367e2926eea844093`
 
-NoCloud v1.4.0 adds the dedicated rental Unit Workspace, plain-language lease
-and tenant setup, current-period rent actions, and a paginated per-unit rent
-history. Both desktop rails are more compact, the attention panel is presented
-as a softly raised card, and startup window visibility is more resilient.
+NoCloud v1.4.1 improves display comfort on SDR and HDR screens. It adds five
+tested brightness levels to both NoCloud Light and NoCloud Dark, automatically
+selects Brighter on SDR or Darker on HDR, and keeps a per-computer manual
+override. The dashboard controls and launcher tiles now stay aligned to the
+left on wide windows, and the Protection status uses a compact single-row card.
 
 This release does not change the database schema, rename rental custom fields,
-or rewrite existing business records. The complete release passed 536 automated
-tests, migration recovery and IPC safety checks, a production build, and a real
-packaged-app boot.
+or rewrite existing business records. The complete release passed 559 automated
+tests, migration recovery and IPC safety checks, a production build, and real
+Electron interaction and layout audits.
 
 > **Windows SmartScreen:** The installer is not code-signed yet. Windows may
 > display “Windows protected your PC.” Choose **More info → Run anyway** only
@@ -51,7 +52,7 @@ packaged-app boot.
 
 ## Installation
 
-1. Download `NoCloud-Setup-1.4.0.exe` from the release link above.
+1. Download `NoCloud-Setup-1.4.1.exe` from the release link above.
 2. Run the installer.
 3. Launch NoCloud and enter your license key.
 4. Complete the setup wizard and choose the business model that matches your
@@ -78,8 +79,8 @@ packaged-app boot.
 - **Multiple business profiles:** keep separate businesses in one installation
   and switch between them.
 - **English and French (Canada):** full bilingual interface.
-- **Light and dark appearance:** selectable themes, density, and a rerunnable
-  guided tour.
+- **Light and dark appearance:** selectable themes, five-level brightness with
+  automatic SDR/HDR adaptation, display density, and a rerunnable guided tour.
 
 ## Automatic updates
 
