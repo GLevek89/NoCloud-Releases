@@ -8,6 +8,17 @@ data stays in a local SQLite database on the user's computer.
 This public repository contains the downloadable NoCloud installers and update
 manifests. The source code is maintained separately in a private repository.
 
+## See NoCloud
+
+These dark-mode screenshots show the real desktop application using fictional
+demonstration data. No customer or business records are included.
+
+[![NoCloud dashboard in dark mode](assets/screenshots/dashboard-dark.png)](assets/screenshots/dashboard-dark.png)
+
+| Invoicing | Expenses |
+| --- | --- |
+| [![NoCloud invoicing in dark mode](assets/screenshots/invoices-dark.png)](assets/screenshots/invoices-dark.png) | [![NoCloud expenses in dark mode](assets/screenshots/expenses-dark.png)](assets/screenshots/expenses-dark.png) |
+
 ## Latest release
 
 **Current version: [NoCloud v1.3.0](https://github.com/GLevek89/NoCloud-Releases/releases/tag/v1.3.0)**
