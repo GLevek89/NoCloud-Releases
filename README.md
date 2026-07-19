@@ -19,33 +19,31 @@ demonstration data. No customer or business records are included.
 | --- | --- |
 | [![NoCloud invoicing in dark mode](assets/screenshots/invoices-dark.png)](assets/screenshots/invoices-dark.png) | [![NoCloud expenses in dark mode](assets/screenshots/expenses-dark.png)](assets/screenshots/expenses-dark.png) |
 
-### Rental unit workspace preview
+### Rental unit workspace
 
-The next rental update is currently in review. It adds a focused unit workspace
-for property details, lease and tenant setup, current rent status, payment
-recording, and per-unit rent history.
+NoCloud v1.4.0 adds a focused unit workspace for property details, lease and
+tenant setup, current rent status, payment recording, and per-unit rent history.
 
 [![NoCloud rental unit workspace in dark mode](assets/screenshots/rental-unit-workspace-dark.png)](assets/screenshots/rental-unit-workspace-dark.png)
 
 ## Latest release
 
-**Current version: [NoCloud v1.3.0](https://github.com/GLevek89/NoCloud-Releases/releases/tag/v1.3.0)**
+**Current version: [NoCloud v1.4.0](https://github.com/GLevek89/NoCloud-Releases/releases/tag/v1.4.0)**
 
 - [Open the latest release](https://github.com/GLevek89/NoCloud-Releases/releases/latest)
-- [Download NoCloud-Setup-1.3.0.exe](https://github.com/GLevek89/NoCloud-Releases/releases/download/v1.3.0/NoCloud-Setup-1.3.0.exe)
+- [Download NoCloud-Setup-1.4.0.exe](https://github.com/GLevek89/NoCloud-Releases/releases/download/v1.4.0/NoCloud-Setup-1.4.0.exe)
 - Windows 10 or Windows 11, 64-bit
-- Installer SHA-256: `069b2bd2ef548508c377a45f1551f3387f48372966961e2e0124d9b9cbdbedf1`
+- Installer SHA-256: `927e70b25565abbbe8b251610acd192cc0759b41fc5691adf6ab01aa2bb09b4d`
 
-NoCloud v1.3.0 adds a persistent attention workspace, always-visible English/
-French and light/dark controls, desktop File/View/Help menus with route-aware
-print and export actions, external or cloud-synced-folder backup setup, and the
-Nuts & Bolts starter catalog. Stock alerts now ignore inactive reference and
-non-stock rows.
+NoCloud v1.4.0 adds the dedicated rental Unit Workspace, plain-language lease
+and tenant setup, current-period rent actions, and a paginated per-unit rent
+history. Both desktop rails are more compact, the attention panel is presented
+as a softly raised card, and startup window visibility is more resilient.
 
-The release uses an additive migration that deletes no business records and
-only deactivates untouched, zero-quantity reference catalog rows. An upgrade
-copy from v1.2.2 was validated with SQLite integrity, record counts, stock
-totals, and financial totals preserved.
+This release does not change the database schema, rename rental custom fields,
+or rewrite existing business records. The complete release passed 536 automated
+tests, migration recovery and IPC safety checks, a production build, and a real
+packaged-app boot.
 
 > **Windows SmartScreen:** The installer is not code-signed yet. Windows may
 > display “Windows protected your PC.” Choose **More info → Run anyway** only
@@ -53,7 +51,7 @@ totals, and financial totals preserved.
 
 ## Installation
 
-1. Download `NoCloud-Setup-1.3.0.exe` from the release link above.
+1. Download `NoCloud-Setup-1.4.0.exe` from the release link above.
 2. Run the installer.
 3. Launch NoCloud and enter your license key.
 4. Complete the setup wizard and choose the business model that matches your
