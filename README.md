@@ -120,11 +120,14 @@ update is ready, the user chooses when to restart and install it. Existing
 business records remain in place during a normal update. Automatic update
 checks can be turned off from **Settings → About**.
 
-## About this download repository
+<div align="center">
 
-This public repository is the official download location for NoCloud's Windows
-installer and update files. Product source code and customer business records
-are not published here.
+## Ready to bring your business into one clear workspace?
 
-[View the latest download](https://github.com/GLevek89/NoCloud-Releases/releases/latest)
-· [License](LICENSE)
+### [Download NoCloud for Windows](https://github.com/GLevek89/NoCloud-Releases/releases/latest)
+
+Windows 10 or Windows 11 · 64-bit · A NoCloud license key is required
+
+[License](LICENSE)
+
+</div>
