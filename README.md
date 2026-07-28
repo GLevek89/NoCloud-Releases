@@ -1,127 +1,125 @@
+<div align="center">
+
 # NoCloud
 
-NoCloud is an offline-first Windows desktop business hub for small businesses.
-It brings clients, inventory, invoicing, estimates, receivables, expenses,
-rent collection, notes, reporting, and backups into one application. Business
-data stays in a local SQLite database on the user's computer.
+### One clear Windows workspace for running your small business.
 
-This public repository contains the downloadable NoCloud installers and update
-manifests. The source code is maintained separately in a private repository.
+Manage clients, sales, expenses, inventory, receivables, HST, reports, and
+business records without forcing your daily work through an online accounting
+account.
 
-## See NoCloud
+### [Download NoCloud for Windows](https://github.com/GLevek89/NoCloud-Releases/releases/latest)
 
-These dark-mode screenshots show the real desktop application using fictional
-demonstration data. No customer or business records are included.
+Windows 10 or Windows 11 · 64-bit · A NoCloud license key is required
 
-[![NoCloud dashboard in dark mode](assets/screenshots/dashboard-dark.png)](assets/screenshots/dashboard-dark.png)
+</div>
+
+![What NoCloud includes](assets/overview/nocloud-overview-light.png#gh-light-mode-only)
+![What NoCloud includes](assets/overview/nocloud-overview-dark.png#gh-dark-mode-only)
+
+## Keep the whole business connected
+
+NoCloud follows the work from the first customer conversation to the final
+report. Create a client, prepare an estimate, turn it into an invoice, record
+the payment, track the related expenses, and see what the business is owed—all
+from the same application.
+
+| Sales and clients | Expenses and HST |
+| --- | --- |
+| Keep customer details and history together. Create estimates, invoices, counter sales, and professional PDFs. Record payments and follow every balance. | Record gross, net, and HST amounts clearly. Enter one purchase or several receipts at once, remember vendors, review transactions, and prepare HST information. |
+| **Money owed** | **Inventory and operations** |
+| See outstanding and overdue invoices, aging, client balances, statements, and printable summaries without rebuilding the numbers in a separate file. | Track products, materials, services, quantities, stock movements, low-stock items, kits, receiving, and spreadsheet imports. |
+| **Reports and accountant handoff** | **Workspaces that fit the business** |
+| Review revenue, receivables, expenses, HST, and rental income by date range. Export filtered lists, invoice PDFs, CSV files, and accountant-ready Excel packages. | Keep multiple businesses separate. Choose a General Business, Excavation and Parts Sales, or Rental Location workspace, with English and French interfaces. |
+
+## Find the answer without digging
+
+NoCloud is built for real lists that grow over time. Search across the
+application, narrow records with page-specific filters, sort the information
+that matters, and export the filtered result. Inventory can be narrowed by
+stock condition, category, type, and business-specific groups; invoices and
+estimates can be separated by status; rental units can be reviewed by
+occupancy; and transaction workspaces keep incoming and outgoing activity in
+one place.
+
+## SuperBatch (Beta): bring in a complete Excel table
+
+When hundreds or thousands of expenses or deposits already exist in a
+spreadsheet, retyping them one line at a time is not a reasonable workflow.
+SuperBatch is NoCloud's advanced bulk-import workspace:
+
+- Paste a complete table from Excel or select an XLSX, CSV, or TSV file.
+- Let NoCloud recognize common English and French columns, then review or
+  correct the proposed mapping.
+- Keep every source row visible. Malformed, ignored, ambiguous, and excluded
+  rows remain available for review instead of disappearing silently.
+- Resolve repeated category and account values once, review possible
+  duplicates, and focus attention on the rows that actually need a decision.
+- Reconcile source counts and gross, net, and HST totals before saving.
+- Save the complete import as one batch, or undo the complete import afterward.
+
+SuperBatch is clearly marked **Beta** in NoCloud. Review its reconciliation
+totals before committing a live import.
+
+## See the real application
+
+These screens use fictional demonstration data. No customer or business
+records are included.
+
+[![NoCloud dashboard](assets/screenshots/dashboard-dark.png)](assets/screenshots/dashboard-dark.png)
 
 | Invoicing | Expenses |
 | --- | --- |
-| [![NoCloud invoicing in dark mode](assets/screenshots/invoices-dark.png)](assets/screenshots/invoices-dark.png) | [![NoCloud expenses in dark mode](assets/screenshots/expenses-dark.png)](assets/screenshots/expenses-dark.png) |
+| [![NoCloud invoicing](assets/screenshots/invoices-dark.png)](assets/screenshots/invoices-dark.png) | [![NoCloud expenses](assets/screenshots/expenses-dark.png)](assets/screenshots/expenses-dark.png) |
 
-### Rental unit workspace
+### Rental locations
 
-NoCloud v1.4.0 adds a focused unit workspace for property details, lease and
-tenant setup, current rent status, payment recording, and per-unit rent history.
+Property and rental workspaces bring unit details, tenants, lease information,
+current rent status, payment recording, and unit history together.
 
-[![NoCloud rental unit workspace in dark mode](assets/screenshots/rental-unit-workspace-dark.png)](assets/screenshots/rental-unit-workspace-dark.png)
+[![NoCloud rental unit workspace](assets/screenshots/rental-unit-workspace-dark.png)](assets/screenshots/rental-unit-workspace-dark.png)
 
-## Latest release
+## Your records stay under your control
 
-**Current version: [NoCloud v1.4.2](https://github.com/GLevek89/NoCloud-Releases/releases/tag/v1.4.2)**
+NoCloud stores each business on the Windows computer where it is used. Daily
+work is designed to continue locally instead of depending on a browser session
+or permanent internet connection.
 
-- [Open the latest release](https://github.com/GLevek89/NoCloud-Releases/releases/latest)
-- [Download NoCloud-Setup-1.4.2.exe](https://github.com/GLevek89/NoCloud-Releases/releases/download/v1.4.2/NoCloud-Setup-1.4.2.exe)
-- Windows 10 or Windows 11, 64-bit
-- Installer SHA-256: `15432cc0db8742ea9d234d2486da6c0aea1c030504d5cb45917ca2588580e29b`
+- Automatic and manual backups help protect the business file.
+- Backups can be verified before they are needed and are checked before a
+  restore.
+- A safety copy is created before a restore or database update.
+- Separate business profiles keep their clients, invoices, expenses, and other
+  records apart.
+- A backup folder can be placed on another drive or in a synchronized folder
+  chosen by the user.
 
-NoCloud v1.4.2 introduces a bounded, Sage-inspired dashboard workspace. The six
-primary launchers stay centred within their task area on normal and ultrawide
-displays, while a live Business Snapshot uses the remaining space for sales,
-receivables, expenses, and inventory or rent collection. Getting Started is
-compact, responsive, and available without consuming the dashboard width.
+NoCloud does not upload business records to this repository.
 
-The display-comfort controls from v1.4.1 remain available in both themes, with
-five brightness levels, automatic SDR/HDR selection, and a per-computer manual
-override.
+## Install in three steps
 
-This release does not change the database schema, rename rental custom fields,
-or rewrite existing business records. The complete release passed 559 automated
-tests, migration recovery and IPC safety checks, a production build, and real
-Electron interaction and layout audits.
+1. Open the [latest NoCloud release](https://github.com/GLevek89/NoCloud-Releases/releases/latest).
+2. Download the Windows file whose name starts with `NoCloud-Setup-` and ends
+   with `.exe`, then run it.
+3. Open NoCloud, enter the supplied license key, and follow the guided business
+   setup.
 
-> **Windows SmartScreen:** The installer is not code-signed yet. Windows may
-> display “Windows protected your PC.” Choose **More info → Run anyway** only
-> after confirming the installer came from this repository.
+> **Windows SmartScreen:** NoCloud's installer is not code-signed yet. Windows
+> may display “Windows protected your PC.” Confirm that the installer came from
+> this repository, then choose **More info → Run anyway**.
 
-## Installation
+## Updates without starting over
 
-1. Download `NoCloud-Setup-1.4.2.exe` from the release link above.
-2. Run the installer.
-3. Launch NoCloud and enter your license key.
-4. Complete the setup wizard and choose the business model that matches your
-   work.
+NoCloud checks for new releases while the application is running. When an
+update is ready, the user chooses when to restart and install it. Existing
+business records remain in place during a normal update. Automatic update
+checks can be turned off from **Settings → About**.
 
-## What NoCloud includes
+## About this download repository
 
-- **Invoicing and estimates:** payments, HST, due dates, overdue tracking,
-  deposits, holdback/progress billing, counter sales, and estimate conversion.
-- **Invoice design:** four PDF layouts, live preview, bundled fonts, custom
-  colours, logo placement, paper settings, footers, and saved presets.
-- **Inventory:** products, materials, services, stock movements, low-stock
-  alerts, kits, spreadsheet import, and optional parts starter catalogs.
-- **Excavation and parts sales:** tailored inventory groups, service presets,
-  receiving workflows, and parts-focused starter catalogs.
-- **Rental locations:** properties and units, tenant assignment, monthly or
-  weekly rent schedules, due/late status, and rent-payment recording.
-- **Expenses and transactions:** HST extraction, vendor memory, quick entry,
-  stock-receipt expense linking, and a combined transaction ledger.
-- **Receivables and reports:** aging, revenue, HST, rental income, printable
-  summaries, and date-range reporting.
-- **Exports:** CSV list exports, client statements, batch invoice PDFs,
-  accountant-ready XLSX packages, and full-data exports.
-- **Multiple business profiles:** keep separate businesses in one installation
-  and switch between them.
-- **English and French (Canada):** full bilingual interface.
-- **Light and dark appearance:** selectable themes, five-level brightness with
-  automatic SDR/HDR adaptation, display density, and a rerunnable guided tour.
+This public repository is the official download location for NoCloud's Windows
+installer and update files. Product source code and customer business records
+are not published here.
 
-## Automatic updates
-
-NoCloud checks this repository for updates at startup and periodically while the
-application is running. Update packages download in the background and install
-only after the user accepts the restart prompt. Automatic update checks can be
-disabled from **Settings → About**.
-
-Each published release should contain:
-
-- `NoCloud-Setup-<version>.exe`
-- `NoCloud-Setup-<version>.exe.blockmap`
-- `latest.yml`
-
-## Data protection
-
-NoCloud is designed around a local, user-owned database:
-
-- SQLite transactions and write-ahead logging protect normal saves.
-- Rolling automatic backups and manual backups are supported.
-- Backups are validated before restore.
-- Restore takes a safety snapshot first and rolls back if validation fails.
-- Database migrations require a pre-update snapshot and restore the previous
-  database if migration fails.
-- Existing invoices, clients, payments, stock movements, and expenses are not
-  stored in this repository.
-
-NoCloud is offline-first. Network access is limited to update checks, license
-activation, opt-in multi-device features on the user's own network, and feedback
-or crash reports only when the user chooses to send them.
-
-## Release policy
-
-A feature is not available to users until a versioned release with all three
-required update assets is published here. Development branches and draft source
-pull requests are not release builds.
-
-## License
-
-[Apache-2.0](./LICENSE)
+[View the latest download](https://github.com/GLevek89/NoCloud-Releases/releases/latest)
+· [License](LICENSE)
