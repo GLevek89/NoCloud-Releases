@@ -2,15 +2,20 @@
 
 # NoCloud
 
-### One clear Windows workspace for running your small business.
+### Your clients, sales, expenses, inventory, and reports—together on your Windows PC.
 
-Manage clients, sales, expenses, inventory, receivables, HST, reports, and
-business records without forcing your daily work through an online accounting
-account.
+This is the official public home for NoCloud downloads and major product
+updates. NoCloud is a practical desktop workspace that helps a small business
+manage its daily work without scattering records across disconnected tools.
 
 ### [Download NoCloud for Windows](https://github.com/GLevek89/NoCloud-Releases/releases/latest)
 
 Windows 10 or Windows 11 · 64-bit · A NoCloud license key is required
+
+[What NoCloud can do](#keep-the-whole-business-connected) ·
+[SuperBatch](#superbatch-beta-bring-in-a-complete-excel-table) ·
+[Data protection](#your-records-stay-under-your-control) ·
+[Installation](#install-in-three-steps)
 
 </div>
 
