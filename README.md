@@ -18,6 +18,26 @@ Windows 10 or Windows 11 · 64-bit · A NoCloud license key is required
 
 *NoCloud shown with fictional demonstration data.*
 
+## New in NoCloud 1.8.1
+
+NoCloud 1.8.1 makes everyday work more comfortable and protects finished work
+from accidental changes.
+
+- **Better on smaller laptops:** forms and reports keep their working room,
+  while Today opens only when it is needed.
+- **Easier daily tools:** the View menu accurately shows whether Today and
+  Quick Calculator are open, and the calculator is ready for typing right away.
+- **Predictable pop-up windows:** overlapping windows close one at a time and
+  return you to where you started.
+- **Safer completed invoices:** paid and void invoices stay protected. Duplicate
+  one when an editable copy is needed.
+- **Clearer forms and help:** invoice, estimate, and kit forms give better
+  keyboard feedback, and the welcome tour now matches the current menus.
+
+Updating from 1.8.0 keeps your activation, business profiles, and records.
+Calculations, file locations, and connected-device setup continue to work as
+before.
+
 ## What NoCloud does
 
 NoCloud keeps related work together. A client can move from estimate to invoice
@@ -26,6 +46,9 @@ amounts owed, and reports remain available from the main menu.
 
 - **Sales and clients:** client records, estimates, invoices, counter sales,
   payments, statements, and customizable invoice PDFs.
+- **Profit estimates:** a monthly estimate on Dashboard and Reports, plus an
+  internal estimated gross profit on each invoice when costs are entered.
+  These figures are not shown on customer PDFs.
 - **Expenses and HST:** single expense entry, multi-receipt entry, gross/net/HST
   amounts, vendor memory, and a combined transaction list.
 - **Money owed:** outstanding and overdue invoices, aging, balances, printable
@@ -107,8 +130,8 @@ Business records are not uploaded to this repository.
 
 NoCloud checks for updates while the application is running. When an update is
 ready, the user chooses when to restart and install it. Normal updates keep the
-existing business records in place. Update checks can be turned off from
-**Settings → About**.
+existing activation, business profiles, and records in place. Update checks can
+be turned off from **Settings → About**.
 
 <div align="center">
 
