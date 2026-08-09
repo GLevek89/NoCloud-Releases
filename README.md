@@ -18,24 +18,27 @@ Windows 10 or Windows 11 · 64-bit · A NoCloud license key is required
 
 *NoCloud shown with fictional demonstration data.*
 
-## New in NoCloud 1.8.1
+## New in NoCloud 1.8.2
 
-NoCloud 1.8.1 makes everyday work more comfortable and protects finished work
-from accidental changes.
+NoCloud 1.8.2 keeps important numbers easy to see on laptops and removes
+decisions that get in the way of everyday work.
 
-- **Better on smaller laptops:** forms and reports keep their working room,
-  while Today opens only when it is needed.
-- **Easier daily tools:** the View menu accurately shows whether Today and
-  Quick Calculator are open, and the calculator is ready for typing right away.
-- **Predictable pop-up windows:** overlapping windows close one at a time and
-  return you to where you started.
-- **Safer completed invoices:** paid and void invoices stay protected. Duplicate
-  one when an editable copy is needed.
-- **Clearer forms and help:** invoice, estimate, and kit forms give better
-  keyboard feedback, and the welcome tour now matches the current menus.
+- **Important money stays visible:** Money Owed, Expenses, Reports, and
+  SuperBatch keep balances, HST, and totals on screen at common laptop sizes.
+- **Simpler small-window navigation:** one clearly labelled Menu button and one
+  Today button open over the page without shrinking the work underneath.
+- **Clearer business numbers:** Dashboard says what each figure counts, and
+  Reports keeps each result attached to the period that produced it.
+- **Invoices are ready sooner:** New Invoice opens with a ready number. Existing
+  numbers stay unchanged, and an optional custom invoice code remains in
+  Settings.
+- **Plain dates and money labels:** dates follow the chosen language, and money
+  fields use labels such as Total with HST and Before HST.
+- **Easier keyboard use:** menus, drawers, and transaction details have clearer
+  labels and return focus to a useful control.
 
-Updating from 1.8.0 keeps your activation, business profiles, and records.
-Calculations, file locations, and connected-device setup continue to work as
+Updating from 1.8.1 keeps your activation, businesses, records, document
+numbers, backups, and settings. Calculations and local file locations work as
 before.
 
 ## What NoCloud does
@@ -49,8 +52,9 @@ amounts owed, and reports remain available from the main menu.
 - **Profit estimates:** a monthly estimate on Dashboard and Reports, plus an
   internal estimated gross profit on each invoice when costs are entered.
   These figures are not shown on customer PDFs.
-- **Expenses and HST:** single expense entry, multi-receipt entry, gross/net/HST
-  amounts, vendor memory, and a combined transaction list.
+- **Expenses and HST:** single expense entry, multi-receipt entry, receipt
+  totals, amounts before HST, HST, vendor memory, and a combined transaction
+  list.
 - **Money owed:** outstanding and overdue invoices, aging, balances, printable
   summaries, and client statements.
 - **Inventory and services:** products, materials, services, quantities, stock
@@ -78,7 +82,8 @@ SuperBatch is for importing a large table of expenses or deposits:
   excluded rows.
 - Resolve repeated category and account values once.
 - Review possible duplicates before anything is saved.
-- Compare row counts and gross, net, and HST totals with the source.
+- Compare row counts, totals with HST, amounts before HST, and HST with the
+  source.
 - Save the import as one batch and undo the complete batch afterward if needed.
 
 SuperBatch is marked **Beta** in NoCloud. Its reconciliation totals should be
