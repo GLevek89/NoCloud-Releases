@@ -18,28 +18,35 @@ Windows 10 or Windows 11 · 64-bit · A NoCloud license key is required
 
 *NoCloud shown with fictional demonstration data.*
 
-## New in NoCloud 1.8.2
+## New in NoCloud 1.8.3
 
-NoCloud 1.8.2 keeps important numbers easy to see on laptops and removes
-decisions that get in the way of everyday work.
+NoCloud 1.8.3 makes routine attention messages calmer and keeps stock tools
+focused on items that are actually kept in stock.
 
-- **Important money stays visible:** Money Owed, Expenses, Reports, and
-  SuperBatch keep balances, HST, and totals on screen at common laptop sizes.
-- **Simpler small-window navigation:** one clearly labelled Menu button and one
-  Today button open over the page without shrinking the work underneath.
-- **Clearer business numbers:** Dashboard says what each figure counts, and
-  Reports keeps each result attached to the period that produced it.
-- **Invoices are ready sooner:** New Invoice opens with a ready number. Existing
-  numbers stay unchanged, and an optional custom invoice code remains in
-  Settings.
-- **Plain dates and money labels:** dates follow the chosen language, and money
-  fields use labels such as Total with HST and Before HST.
-- **Easier keyboard use:** menus, drawers, and transaction details have clearer
-  labels and return focus to a useful control.
+- **Calmer attention messages:** overdue balances, rent due, and stock that
+  needs attention use subtle amber markers and clear wording instead of turning
+  whole amounts or messages red. Red remains reserved for errors and
+  destructive actions.
+- **Clearer item setup:** Add Item opens the complete form, returns you to where
+  you started, and asks you to choose when a group allows several item types.
+- **Safer stock updates:** Stock Update shows only stock-tracked items and uses
+  plain actions: Receive, Correct count, and Remove manually. NoCloud also
+  explains that invoices and counter sales already reduce stock.
+- **Stock tools stay with stock items:** services, rental units, deposits, and
+  other items not kept in stock no longer show stock controls or count toward
+  stock value or stock alerts.
+- **Simpler inventory:** the main filters focus on stock that needs attention,
+  value at cost includes stock-tracked items only, and unused setup groups stay
+  out of the way.
+- **Clearer report reminder:** Reports quietly explains that its totals depend
+  on the records entered in NoCloud and should be reviewed before filing or
+  making a business decision.
 
-Updating from 1.8.1 keeps your activation, businesses, records, document
-numbers, backups, and settings. Calculations and local file locations work as
-before.
+Updating from 1.8.2 keeps your activation, businesses, records, document
+numbers, backups, settings, inventory quantities, and stock-movement history.
+This update does not rewrite existing inventory records or change the database
+schema, local data location, or invoice, payment, HST, expense, or profit
+calculations.
 
 ## What NoCloud does
 
