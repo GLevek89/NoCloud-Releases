@@ -18,35 +18,23 @@ Windows 10 or Windows 11 · 64-bit · A NoCloud license key is required
 
 *NoCloud shown with fictional demonstration data.*
 
-## New in NoCloud 1.8.3
+## New in NoCloud 1.8.4
 
-NoCloud 1.8.3 makes routine attention messages calmer and keeps stock tools
-focused on items that are actually kept in stock.
+NoCloud 1.8.4 keeps the top bar clean when automatic update checks are turned
+off.
 
-- **Calmer attention messages:** overdue balances, rent due, and stock that
-  needs attention use subtle amber markers and clear wording instead of turning
-  whole amounts or messages red. Red remains reserved for errors and
-  destructive actions.
-- **Clearer item setup:** Add Item opens the complete form, returns you to where
-  you started, and asks you to choose when a group allows several item types.
-- **Safer stock updates:** Stock Update shows only stock-tracked items and uses
-  plain actions: Receive, Correct count, and Remove manually. NoCloud also
-  explains that invoices and counter sales already reduce stock.
-- **Stock tools stay with stock items:** services, rental units, deposits, and
-  other items not kept in stock no longer show stock controls or count toward
-  stock value or stock alerts.
-- **Simpler inventory:** the main filters focus on stock that needs attention,
-  value at cost includes stock-tracked items only, and unused setup groups stay
-  out of the way.
-- **Clearer report reminder:** Reports quietly explains that its totals depend
-  on the records entered in NoCloud and should be reviewed before filing or
-  making a business decision.
+- **Cleaner update status:** Instead of squeezing “Auto-updates off” into the
+  top bar, NoCloud now shows a small amber cloud-off icon.
+- **Easy to understand:** Point to the icon for an explanation, or select it to
+  open **Settings → About & Updates** and change the update preference.
+- **Better at every window size:** The icon and Windows controls stay aligned in
+  English and French, including on smaller laptop screens.
 
-Updating from 1.8.2 keeps your activation, businesses, records, document
+Updating from 1.8.3 keeps your activation, businesses, records, document
 numbers, backups, settings, inventory quantities, and stock-movement history.
-This update does not rewrite existing inventory records or change the database
-schema, local data location, or invoice, payment, HST, expense, or profit
-calculations.
+This visual-only update does not change the database schema, local data
+location, licensing, update behaviour, or invoice, payment, HST, expense,
+inventory, or profit calculations.
 
 ## What NoCloud does
 
@@ -143,7 +131,7 @@ Business records are not uploaded to this repository.
 NoCloud checks for updates while the application is running. When an update is
 ready, the user chooses when to restart and install it. Normal updates keep the
 existing activation, business profiles, and records in place. Update checks can
-be turned off from **Settings → About**.
+be turned off from **Settings → About & Updates**.
 
 <div align="center">
 
