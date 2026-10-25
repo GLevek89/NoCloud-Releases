@@ -18,23 +18,21 @@ Windows 10 or Windows 11 · 64-bit · A NoCloud license key is required
 
 *NoCloud shown with fictional demonstration data.*
 
-## New in NoCloud 1.8.4
+## New in NoCloud 1.9.3
 
-NoCloud 1.8.4 keeps the top bar clean when automatic update checks are turned
-off.
+- **Invoice anyone:** Type any name in an invoice's Client box. A name that is
+  not a saved client yet is added to Clients when the invoice is saved, and
+  contact details can be added later.
+- **Every part is listed:** Clicking a line description lists all items, and
+  searches in invoices, estimates, and Counter Sale show every match.
+- **Print and send invoices:** Print several invoices at once, or send them by
+  email, to a Desktop folder, or as an accountant package in one zip file.
+- **Accountant requests:** When the accountant asks for a period's invoices,
+  NoCloud offers to prepare the package and the email in one step.
 
-- **Cleaner update status:** Instead of squeezing “Auto-updates off” into the
-  top bar, NoCloud now shows a small amber cloud-off icon.
-- **Easy to understand:** Point to the icon for an explanation, or select it to
-  open **Settings → About & Updates** and change the update preference.
-- **Better at every window size:** The icon and Windows controls stay aligned in
-  English and French, including on smaller laptop screens.
-
-Updating from 1.8.3 keeps your activation, businesses, records, document
-numbers, backups, settings, inventory quantities, and stock-movement history.
-This visual-only update does not change the database schema, local data
-location, licensing, update behaviour, or invoice, payment, HST, expense,
-inventory, or profit calculations.
+Updating keeps your activation, businesses, records, document numbers,
+backups, settings, and inventory. This update does not change the database
+schema. See the [changelog](CHANGELOG.md) for earlier versions.
 
 ## What NoCloud does
 
@@ -132,6 +130,11 @@ NoCloud checks for updates while the application is running. When an update is
 ready, the user chooses when to restart and install it. Normal updates keep the
 existing activation, business profiles, and records in place. Update checks can
 be turned off from **Settings → About & Updates**.
+
+While update checks are on, NoCloud also reads a small public list of
+accountant requests from this repository. Nothing is sent: the list holds only
+request ids, dates, and one-way codes, and a matching request only prepares an
+email to the accountant address the user saved.
 
 <div align="center">
 
